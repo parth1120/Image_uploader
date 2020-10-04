@@ -1,0 +1,23 @@
+
+.home-container .image-previews {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: "row";
+    flex-wrap: wrap;
+}
+
+.home-container .save-button {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: "row";
+}
+
+.home-container .main-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #171717;
+}

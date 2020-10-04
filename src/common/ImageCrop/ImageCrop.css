@@ -1,0 +1,38 @@
+.crop-image-modal-container {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.crop-image-modal-container .crop-image-modal {
+    background-color: #171717;
+    border: 2px solid #666;
+}
+
+.crop-image-modal-container .crop-image-modal .crop-modal-header {
+    padding: 30px;
+    background-color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.crop-image-modal-container .crop-image-modal .crop-modal-body {
+    width: 600px;
+    height: 600px;
+}
+
+.crop-image-modal-container .crop-image-modal .crop-modal-footer {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: "row";
+}

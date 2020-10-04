@@ -1,0 +1,29 @@
+.image-preview-container {
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-preview-container .image-resolution {
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: brown;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+  .image-preview-container canvas {
+    background-color:  #8F8F8F;
+    border: 2px solid  #4C4C4C;
+  }
+
+  .crop-option-overlay {
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+  }

@@ -1,0 +1,23 @@
+.primary{
+    padding: 10px 20px;
+    background-color:brown;
+    border: 1px solid brown;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .primary:disabled {
+    background-color:#dddddd;
+    border: 1px solid #dddddd;
+    color: #000;
+    cursor: not-allowed;
+  }
+
+  .secondary{
+    padding: 10px 20px;
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+    margin-right: 10px;
+    color: #000;
+    cursor: pointer;
+  }
