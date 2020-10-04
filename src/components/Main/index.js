@@ -1,6 +1,4 @@
 import { lazy } from 'react';
-// import "./style.scss";
-
 
 const MainPage = {
   path: '/',
